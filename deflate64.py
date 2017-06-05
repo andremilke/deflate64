@@ -1,6 +1,6 @@
 import argparse, zlib, base64
 
-parser = argparse.ArgumentParser(description = 'Deflate64 - Decripting Base 64 strings, uncompress content')
+parser = argparse.ArgumentParser(description = 'Deflate64 - Decripting Base 64 strings, decompress content')
 group = parser.add_mutually_exclusive_group()
 group.add_argument("-b", "--base64", action="store", dest="b", help="string in Base64 format")
 group.add_argument("-u", "--uncompress", action="store", dest="u", help="compress string in Base64 format")
@@ -22,17 +22,17 @@ def helpMessage():
 Options:
   -h, --help                      show this help message and exit  
   -b, --base64                    text in Base64 format to decrypt
-  -u, --uncompress                compress text in Base64 format to decrypt  
+  -u, --decompress                compress text in Base64 format to decrypt  
   --txt                           Write the result in a txt  File (optional)
 	 """)
 
 def info():
  print ("""
-Deflate64 - Decripting Base 64 strings, uncompress content
+Deflate64 - Decripting Base 64 strings, decompress content
 \n   AndreMilke (Programmer and Ethical Hacker) - @andremilke \n 
    Usage: deflate64.py [-b, --base64     <keyword>]\n 		   	
                             [--txt Write txt file  ]\n                             
-		  deflate64.py [-u, --uncompress <keyword>]\n 		   	
+		  deflate64.py [-u, --decompress <keyword>]\n 		   	
                             [--txt Write txt file  ]\n                          
       \n              Get basic options and Help, use: -h\--help
 	 """)
