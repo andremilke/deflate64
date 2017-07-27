@@ -5,7 +5,7 @@ Some sploits are a collection of Microsoft Powershell modules that can be used t
 in deflate format.
 This program decrypt base 64 strings and decompress them, allowed you to do a reverse engineering and understood the code.
 
-Deflate64 works out of the box with Python version '''3.x.''' on any platform.
+Deflate64 works out of the box with Python version '''3.x.x''' on any platform.
 
 ### Usage
 
