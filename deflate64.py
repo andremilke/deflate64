@@ -1,6 +1,6 @@
 import argparse, zlib, base64
 
-parser = argparse.ArgumentParser(description = 'Deflate64 - Decripting Base 64 strings, decompress content')
+parser = argparse.ArgumentParser(description = 'Deflate64 Decripting Base 64 strings, decompress content')
 group = parser.add_mutually_exclusive_group()
 group.add_argument("-b", "--base64", action="store", dest="b", help="string in Base64 format")
 group.add_argument("-u", "--uncompress", action="store", dest="u", help="compress string in Base64 format")
