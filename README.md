@@ -1,9 +1,8 @@
 # deflate64
 Deflate64 - Decripting Base 64 strings, decompress content
 
-Some sploits are a collection of Microsoft Powershell modules that can be used to penetrate systems. The majority of this is made with encrypt strings in 64 and after that compressed
-in deflate format.
-This program decrypt base 64 strings and decompress them, allowed you to do a reverse engineering and understood the code.
+Some sploits are a collection of Microsoft Powershell modules that can be used to penetrate systems. The majority of it is made with encoded strings in base 64 and after that compressed in deflate format.
+This program decode base 64 strings and decompress them, allowing you to do a reverse engineering to understand what the code does.
 
 Deflate64 works out of the box with Python version '''3.x.x''' on any platform.
 
