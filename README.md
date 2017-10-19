@@ -1,5 +1,5 @@
 # deflate64
-Deflate64 - Decripting Base 64 strings, decompress content
+Deflate64 - Decoding Base 64 strings, decompress content
 
 Some sploits are a collection of Microsoft Powershell modules that can be used to penetrate systems. The majority of it is made with encoded strings in base 64 and after that compressed in deflate format.
 This program decode base 64 strings and decompress them, allowing you to do a reverse engineering to understand what the code does.
